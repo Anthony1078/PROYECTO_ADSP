@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 n_rows = 50000
 
 # Generar fechas aleatorias
-start_date = datetime.strptime('01-01-2020', '%d-%m-%Y')
-end_date = datetime.strptime('31-12-2022', '%d-%m-%Y')
+start_date = datetime.strptime('01-01-2022', '%d-%m-%Y')
+end_date = datetime.strptime('31-12-2023', '%d-%m-%Y')
 date_range = (end_date - start_date).days
 
 np.random.seed(0)
